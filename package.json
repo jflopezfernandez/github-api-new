@@ -1,0 +1,31 @@
+{
+  "name": "github-api",
+  "version": "1.0.0",
+  "description": "Testing the new Github GraphQL API",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --watch ./**/* --ext js server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lopezfjose/github-api-new.git"
+  },
+  "keywords": [
+    "graphql"
+  ],
+  "author": "Jose Fernando Lopez Fernandez",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/lopezfjose/github-api-new/issues"
+  },
+  "homepage": "https://github.com/lopezfjose/github-api-new#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-graphql": "^0.7.1",
+    "graphql": "^14.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
